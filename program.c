@@ -1,18 +1,11 @@
-#include <stdio.h>
+#include<stdio.h>
+int main(){
+    int a,b;
+    printf("enter first number:");
+    scanf("%d",& a);
+    printf("enter second number:");
+    scanf("%d",& b);
+    printf("sum of two numbers is %d",a+b);
 
-// Function to calculate the sum of two numbers
-int sum(int a, int b) {
-    return a + b;
-}
-
-int main() {
-    int a, b;
-    printf("Enter the first number: ");
-    scanf("%d", &a);
-    printf("Enter the second number: ");
-    scanf("%d", &b);
-
-    printf("The sum of %d and %d is %d\n", a+ b);
-
-    return 0;
+      return 0;
 }
