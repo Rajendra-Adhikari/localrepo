@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    printf("hello");
-    printf("cprogram");
-    printf("hello github");
+    printf("hello world \n");
+    printf("C program \n");
+    printf("hello github\n");
     return 0;
 }
