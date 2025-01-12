@@ -1,3 +1,4 @@
+//filepath:/c:/users/admin/onedrive/desktop/New folder/odd.c
 //print all odd number from 5 to 50
 #include<stdio.h>
 int main(){
@@ -7,3 +8,4 @@ int main(){
     } //odd
     return 0;
 }
+//added a comment to test github contribution
