@@ -16,7 +16,7 @@ return s;
 
 int main(){
 
-s=input();
+s=input();//func call
 printf("the name and marks is %s\t%d\n",s.name,s.marks);
 return 0;
 }

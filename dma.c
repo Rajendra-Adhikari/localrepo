@@ -3,7 +3,7 @@
 int main(){
     int *p,i;
     printf("%d",sizeof(int));
-    p=(int*)malloc(20);
+    p=(int*)malloc(5*sizeof(int));
     printf("enter any five numbers:");
     for(i=0;i<5;i++){
         scanf("%d",p+i);
@@ -21,7 +21,8 @@ int main(){
  return 0;
 }
 /*
-realloc(pointer_name,n*sizeof(datatype));
-ptr= datatype*calloc(no_of-blocks,sizeof(datatype))
+realloc(pointer_name,new-sizeof(datatype));
+ptr= datatype*calloc(no_of-blocks,sizeof(datatype)))(5,20)
 ptr =datatype* malloc(sizeof(datatype))
 */
+//  A B C D E
